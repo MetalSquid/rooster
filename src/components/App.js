@@ -1,8 +1,8 @@
 import React from 'react';
-import AddSearch from "/home/benhain/Documents/Projects/rooster/src/components/search.js";
-import AddFilter from "src/components/F/home/benhain/Documents/Projects/rooster/src/components/Filter.jsilter.js";
-import AddSave from "src/componen/home/benhain/Documents/Projects/rooster/src/components/Save.jsts/Save.js";
-import AddGrid from "/home/benhain/Documents/Projects/rooster/src/components/Grid.js";
+import AddSearch from "./search.js";
+import AddFilter from "./Filter.js";
+import AddSave from "./Save.js";
+import AddGrid from "./Grid.js";
 import './App.css';
 
 function App() {
