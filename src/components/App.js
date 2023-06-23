@@ -1,14 +1,21 @@
 import React from 'react';
-import { Counter } from '../features/counter/Counter';
-import { SearchRec } from '../components/search.js';
+import Search from "src/components/Search.js";
+import Filter from "src/components/Filter.js";
+import Save from "src/components/Save.js";
+import Grid from "src/components/Grid.js";
 import './App.css';
 
 function App() {
   return (
     <div>
-        <Counter />
-        <SearchRec />
-
+      <div>
+        <Search />
+        <Filter />
+        <Save />
+      </div>
+      <div>
+        <Grid />
+      </div>
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
-import { store } from './app/store';
-import App from './components/App';
+import { store } from 'src/app/store.js';
+import App from 'src/components/App.js';
 import './index.css';
 
 const container = document.getElementById('root');
